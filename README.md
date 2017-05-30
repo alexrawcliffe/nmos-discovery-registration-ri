@@ -63,7 +63,7 @@ rd-ips-nmos-apis/$ vagrant up
 
 This will start two Ubuntu 16.04 VMs (named 'regquery' and 'node') and run provisioning scripts to install external python dependencies and the previously built debian packages.
 
-By default the VMs are configured share a private network with no external port forwarding. You can SSH to either of the instances, e.g.:
+By default the VMs are configured to share a private network with no external port forwarding. You can SSH to either of the instances, e.g.:
 ```
 vagrant ssh reqquery
 ```
